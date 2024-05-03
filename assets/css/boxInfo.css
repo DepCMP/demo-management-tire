@@ -1,0 +1,72 @@
+.box-info {
+    position: relative;
+    width: 280px;
+    height: 340px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline-block;
+    background-color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    text-align: left;
+    background-color: #f2f2f2;
+}
+
+.btn {
+    position: absolute;
+
+}
+
+.edit-btn,
+.delete-btn,
+.close-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+
+.close-btn {
+    right: 20px;
+    background-color: #ccc;
+    color: black;
+}
+
+.delete-btn:hover,
+.edit-btn:hover,
+.close-btn:hover {
+    opacity: 0.8;
+}

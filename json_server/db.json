@@ -1,0 +1,67 @@
+{
+  "infomation": [
+    {
+      "id": 1,
+      "name": "Minh Phat",
+      "carNum": "60F-961.02",
+      "phoneNum": "09038389357",
+      "size": "185/60r14",
+      "type": "MICHELIN",
+      "years": 2018
+    },
+    {
+      "id": 2,
+      "name": "Ngoc Nam",
+      "carNum": "51F-970.22",
+      "size": "185/60r14",
+      "phoneNum": "09038399383",
+      "type": "YOKOHAMA",
+      "years": 2020
+    },
+    {
+      "carNum": "72F-562.22",
+      "phoneNum": "02363215236",
+      "name": "Minh Hoang",
+      "type": "DUNLOP",
+      "size": "185/60r14",
+      "years": 2022,
+      "id": 3
+    },
+    {
+      "name": "Dai Phu",
+      "type": "BRIDGESTONE",
+      "years": 2018,
+      "size": "185/60r14",
+      "id": 4,
+      "carNum": "72F-432.87",
+      "phoneNum": "0818862734"
+    },
+    {
+      "name": "Đào Thị Ngọc Ngà",
+      "carNum": "72A-823.22",
+      "phoneNum": "08063254125",
+      "type": "MICHELIN",
+      "size": "185/60r14",
+      "years": 2014,
+      "id": 5
+    },
+    {
+      "name": "Cao Hong Phuc",
+      "carNum": "60E-006.44",
+      "phoneNum": "01263258236",
+      "type": "KHAC",
+      "size": "185/60r14",
+      "years": 2022,
+      "id": 6
+    },
+    {
+      "name": "Phương Anh",
+      "carNum": "60A-908.679",
+      "phoneNum": "09053627852",
+      "type": "MICHELIN",
+      "years": "2015",
+      "size": "185/60r14",
+      "id": 7
+    }
+  ]
+}

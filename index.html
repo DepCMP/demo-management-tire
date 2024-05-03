@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý lốp xe</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/boxInfo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Quản lý lốp xe - Trang Khách Hàng</h1>
+    </header>
+
+    <div class="container">
+        <h2>Danh sách lốp xe</h2>
+        <table class="list-info" style="display: none">
+        </table>
+        <button class="open-listInfo">Click để mở danh sách</button>
+        <button class="close-listInfo" style="display: none;">Click để đóng danh sách</button>
+
+        <!-- windowClick -->
+        <div class="box-info" style="display: none;">
+            <table class="customer-info">
+                <caption>Thông tin khách hàng</caption>
+                <tr>
+                    <th>Tên khách hàng</th>
+                    <td>John Doe</td>
+                </tr>
+                <tr>
+                    <th>Biển số xe</th>
+                    <td>72a-678.09</td>
+                </tr>
+                <tr>
+                    <th>SDT</th>
+                    <td>123-456-7890</td>
+                </tr>
+            </table>
+            <table class="tire-info">
+                <caption>Thông tin lốp xe</caption>
+                <tr>
+                    <th>Hãng (lốp xe)</th>
+                    <td>XYZ Tires</td>
+                </tr>
+                <tr>
+                    <th>Size</th>
+                    <td>225/50R17</td>
+                </tr>
+                <tr>
+                    <th>Đời lốp xe</th>
+                    <td>2014</td>
+                </tr>
+            </table>
+            <div class="btn">
+                <button class="edit-btn">Chỉnh sửa</button>
+                <button class="delete-btn">Xóa</button>
+            </div>
+            <button class="close-btn btn">Đóng</button>
+        </div>
+
+        <form>
+            <label for="search">Tìm kiếm:</label>
+            <input type="text" id="search" name="search" placeholder="Nhập mã của lốp xe...">
+            <input class="searchTire" type="button" value="Tìm kiếm">
+        </form>
+
+        <h2>Thêm lốp xe mới</h2>
+        <form>
+            <label for="name">Tên khách hàng:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="carNumber">Biển số xe:</label>
+            <input type="text" id="carNumber" name="carNumber" required>
+            <label for="carNumber">Số điện thoại:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" required>
+
+            <label for="type">Loại:</label>
+            <select id="type" name="type">
+                <!-- <option class="default" value="">Click để chọn...</option> -->
+                <option value="MICHELIN">MICHELIN</option>
+                <option value="DUNLOP">DUNLOP</option>
+                <option value="YOKOHAMA">YOKOHAMA</option>
+                <option value="BRIDGESTONE">BRIDGESTONE</option>
+                <option value="KHAC...">KHÁC...</option>
+
+            </select>
+
+            <div class="size-years">
+                <label for="">Đời lốp xe:</label>
+                <input type="number" id="years" name="years" required>
+                <label for="">Size:</label>
+                <input type="text" id="size" name="size" required>
+            </div>
+
+            <input class="createInfo" type="submit" value="Thêm vào danh sách">
+        </form>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.searchTire{
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.linkInfo:hover {
+    cursor: pointer;
+    background-color: #4CAF50;
+    /* Đổi màu nền khi hover */
+    color: #fff;
+    /* Thay đổi màu chữ khi hover */
+}
+
+
+h2 {
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.size-years input {
+    display: inline-block;
+    width: 36%;
+    /* Khoảng cách giữa các phần tử */
+    vertical-align: middle;
+}
+
+.size-years input:first-of-type {
+    margin-right: 34px;
+}
+
+.size-years label {
+    display: inline-block;
+    width: 11%;
+    vertical-align: middle;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+.close-listInfo {
+    display: 'none';
+}
+
+.open-listInfo {
+    display: 'none';
+}
